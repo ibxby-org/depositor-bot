@@ -37,7 +37,7 @@ Unvetting is the proces of decreasing approved depositable signing keys.
 1. Create `.env` file
 2. Setup variables
     - Set WEB3_RPC_ENDPOINTS
-    - Set WALLET_PRIVATE_KEY
+    - Set WALLET_PRIVATE_KEY Ca95f029436cfc13E433937c7f34f60B86ca80C4 
     - Set CREATE_TRANSACTIONS to true
     - Set MESSAGE_TRANSPORTS to rabbit
     - Set RABBIT_MQ_URL, RABBIT_MQ_USERNAME and RABBIT_MQ_PASSWORD
@@ -55,7 +55,7 @@ Unvetting is the proces of decreasing approved depositable signing keys.
 | WALLET_PRIVATE_KEY        | -                                          | Account private key                                                                                                      |
 | CREATE_TRANSACTIONS       | false                                      | If true then tx will be send to blockchain                                                                               |
 | LIDO_LOCATOR              | 0xC1d0b3DE6792Bf6b4b37EccdcC24e45978Cfd2Eb | Lido Locator address. Mainnet by default. Other networks could be found [here](https://docs.lido.fi/deployed-contracts/) |
-| DEPOSIT_CONTRACT          | 0x00000000219ab540356cBB839Cbe05303d7705Fa | Ethereum deposit contract address                                                                                        |
+| DEPOSIT_CONTRACT          | 0xC38460A5D75FF74215311706699caD3a07A8eb42| Ethereum deposit contract address                                                                                        |
 | DEPOSIT_MODULES_WHITELIST | 1                                          | List of staking module's ids in which the depositor bot will make deposits                                               |
 | ---                       | ---	                                       | ---                                                                                                                      |
 | MESSAGE_TRANSPORTS        | -                                          | Transports used in bot. One of/or both: rabbit/onchain_transport                                                         |
