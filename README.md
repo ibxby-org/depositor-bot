@@ -55,7 +55,7 @@ Unvetting is the proces of decreasing approved depositable signing keys.
 | WALLET_PRIVATE_KEY        | -                                          | Account private key                                                                                                      |
 | CREATE_TRANSACTIONS       | false                                      | If true then tx will be send to blockchain                                                                               |
 | LIDO_LOCATOR              | 0xC1d0b3DE6792Bf6b4b37EccdcC24e45978Cfd2Eb | Lido Locator address. Mainnet by default. Other networks could be found [here](https://docs.lido.fi/deployed-contracts/) |
-| DEPOSIT_CONTRACT          | 0xC38460A5D75FF74215311706699caD3a07A8eb42| Ethereum deposit contract address                                                                                        |
+| DEPOSIT_CONTRACT          | 0x0a502f846F6dc2e3D4d8C595B18b3AF44657B1bD| Ethereum deposit contract address                                                                                        |
 | DEPOSIT_MODULES_WHITELIST | 1                                          | List of staking module's ids in which the depositor bot will make deposits                                               |
 | ---                       | ---	                                       | ---                                                                                                                      |
 | MESSAGE_TRANSPORTS        | -                                          | Transports used in bot. One of/or both: rabbit/onchain_transport                                                         |
